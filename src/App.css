@@ -1,0 +1,10 @@
+body {
+    background-color: #D2DBDC;
+    margin: 0;
+}
+
+.app-window {
+    display: flex;
+    height: 100vh;
+    background-color: #EDEDED;
+}

@@ -1,9 +1,16 @@
+import React from 'react'
 import './App.css';
+import SideBar from "./components/SideBar";
 
-function App() {
-  return (
-    <div>Hello World</div>
-  );
+const App = () => {
+	return (
+		<div className={"app--window"}>
+			<SideBar />
+			<div className={"content--area"}>
+				...
+			</div>
+		</div>
+	)
 }
 
 export default App;
